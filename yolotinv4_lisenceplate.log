@@ -1,0 +1,27 @@
+ GPU isn't used 
+ Prepare additional network for mAP calculation...
+mini_batch = 1, batch = 32, time_steps = 1, train = 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+yolo-tinyv4-obj
+mini_batch = 2, batch = 64, time_steps = 1, train = 1 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 0 K-images (0 Kilo-batches_64) 
+Weights are saved after: 1000 iterations. Last weights (*_last.weight) are stored every 100 iterations. 
+Learning Rate: 0.00261, Momentum: 0.9, Decay: 0.0005
+ Detection layer: 30 - type = 28 
+ Detection layer: 37 - type = 28 
+Loaded: 1.351877 seconds
+
+ (next mAP calculation at 1000 iterations) [H[J1/6000: loss=308.8 hours left=-1.0
+ 1: 308.788422, 308.788422 avg loss, 0.000000 rate, 11.772523 seconds, 64 images, -1.000000 hours left
+Loaded: 0.000057 seconds
+
+ (next mAP calculation at 1000 iterations) [H[J2/6000: loss=308.8 hours left=21.9
+ 2: 308.808899, 308.790466 avg loss, 0.000000 rate, 9.923905 seconds, 128 images, 21.870431 hours left
+Loaded: 0.000070 seconds
+
+ (next mAP calculation at 1000 iterations) [H[J3/6000: loss=308.8 hours left=21.8
+ 3: 308.793091, 308.790741 avg loss, 0.000000 rate, 9.906074 seconds, 192 images, 21.817071 hours left
