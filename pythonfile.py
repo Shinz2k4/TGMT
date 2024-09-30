@@ -1,4 +1,5 @@
 #Tạo file train.txt, valid.txt theo đoạn code
+
 import os
 import numpy as np
 #"obj" là tên thư mục chứa cả ảnh và file annotation.
@@ -19,6 +20,5 @@ with open("data/train.txt","w") as f:
       f.write("data/obj/"+lst_images[idx]+"\n")
       
 #Tạo file valid.txt được đặt trong thư mục darknet/data
-with open("data/valid.txt","w") as f:
+with open("data/valid.txt","w") as f:   
     for idx in random_idx:
-      f.write("data/obj/"+lst_images[idx]+"\n")
